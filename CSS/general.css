@@ -1,0 +1,51 @@
+/* This is a CSS document*/
+
+/*
+
+selector {
+    property: value;
+    property: value;
+    property: value
+}
+
+Each selector is paired with and styles and element. For example:
+
+HTML {} is paited with and styles html
+*/
+
+HTML {font-family: Arial, Helvetica, Sans-serif}
+
+body {background-color: #BCF}
+
+h1 {font-family: Georgia, "Times New Roman", Serif;
+    font-size: 3rem; /* 1 rem is equal to 3 pixels */
+    font-weight: normal;
+    color: #FFF}
+
+/* Both of these are effected */
+p,
+li {font-size: 1rem;
+    line-height: 1.5rem}
+/* The paragraph after h1, so for another example, the ol after h2 could be styled */
+h1 + p {font-size: 1.5rem;
+        line-height: 1.75rem;
+        color: #000989}
+
+/* all the strongs in p are styled blue, another example, all the strongs in ol */
+p strong {color: #39f}
+strong {font-weight: bold}
+
+em {font-style: italic}
+
+hr {border: solid 3px #3f9}
+
+ul,
+ol { background-color: #BCB}
+
+li {color: #000989}
+
+h2 {color: white}
+
+/* First, last, nth*/
+ol li:first-child {background-color: #0f7}
+ol li:last-child {background-color: #f49}
